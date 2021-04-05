@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import MovieList from "./components/MovieList"
+// import MovieList from './components/MovieList'
 import Search from './components/SearchBox'
 import Results from './components/Results'
 import Info from './components/Info'
-import SimpleBottomNavigation from "./components/MainNav"
+import SimpleBottomNavigation from './components/MainNav'
 function App() {
   const [state, setState] = useState({
     s: "",
